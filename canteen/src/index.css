@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  margin: auto;
+  padding: 1vw;
+  text-align: center;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.canteen {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  position: relative;
+}
+
+.popup-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.topbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btns {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.discount-badge {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: 1px bold;
+  border-radius: 100px;
+  cursor: pointer;
+  height: 6vh;
+  width: 8vw;
+}
+
+.discount-badge:hover {
+  background-color: #d32f2f;
+}
+
+.select {
+  background-color: chocolate;
+  color: black;
+  width: 100vh;
+  height: 9vh;
+  font-weight: bold;
+  margin: 0%;
+  padding: 0%;
+  font-size: 20px;
+  font-style: oblique;
+}
